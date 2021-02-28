@@ -1,0 +1,31 @@
+#wt-message-wrap {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform-origin: 50% 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    opacity: 1;
+    transition: all .5s linear 0s;
+}
+.wt-message-content {
+    display: block;
+    padding: 5px 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: inset 1px 2px 4px #ccc, 1px 2px 4px #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wt-message-icon {
+    display: inline-block;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+    font-size: 13px;
+}

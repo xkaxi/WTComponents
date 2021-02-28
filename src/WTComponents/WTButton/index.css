@@ -1,0 +1,17 @@
+.wt-button {
+    background: #fff;
+    color: #333;
+    padding: 0px 20px;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all .4s linear 0s;
+}
+.wt-button:hover {
+    cursor: pointer!important;
+    background: rgb(179, 177, 177)!important;
+    color: #fff!important;
+    border-radius: 0px!important;
+    border: 1px solid rgb(179, 177, 177)!important;
+}

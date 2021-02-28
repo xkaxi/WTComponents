@@ -1,0 +1,42 @@
+.wt-confirm-wrap {
+    display: inline-block;
+    text-align: center;
+}
+.wt-confirm-title {
+    display: inline-block;
+    padding: 1px;
+    color: #333;
+    cursor: pointer;
+    text-shadow: 1px 2px 2px #fff;
+    transition: all .6s linear .1s;
+}
+.wt-confirm-title:hover {
+    color: #fff;
+    text-shadow: 1px 2px 2px #333;
+}
+.wt-confirm-cont {
+    position: fixed;
+    opacity: 0;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-top: 3px;
+    text-align: center;
+    transition: all .4s linear 0s;
+    box-shadow: 1px 2px 10px #ccc;
+}
+.wt-confirm-pointer {
+    display: inline-block;
+    padding: 5px;
+    background-color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.06);
+    transform: rotate(-135deg);
+}
+.wt-btns-wrap {
+    display: flex;
+}
+.active {
+    opacity: 1;
+}
