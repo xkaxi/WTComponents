@@ -50,17 +50,6 @@ function Home(props) {
                         onCancel={cancelLogout}
                         align='left'
                     />
-                    {/* <Popconfirm
-                        title="确定退出?"
-                        onConfirm={logoutClick}
-                        onCancel={cancelLogout}
-                        okText="是"
-                        cancelText="否"
-                    >
-                        <span className='logout'>
-                            退出
-                        </span>
-                    </Popconfirm> */}
                 </Col>
             </Row>
             <Row style={{ height: 'calc( 100% - 100px )' }}>
