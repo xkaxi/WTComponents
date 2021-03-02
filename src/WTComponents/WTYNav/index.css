@@ -1,0 +1,14 @@
+body {
+    position: relative;
+}
+.wt-ynav-wrap {
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #d68686;
+}
+.wt-ynav-title1 {
+    color: #d68686 !important;
+}

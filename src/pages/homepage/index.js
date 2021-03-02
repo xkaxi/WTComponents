@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Row, Col } from 'antd'
-import{ WTConfirm, WTInput, WTMessage } from '../../WTComponents'
+import{ WTConfirm, WTInput, WTMessage, WTYNav } from '../../WTComponents'
 
 import './index.css'
 
@@ -83,7 +83,7 @@ function Home(props) {
                         btnYes={''}
                         btnNo={''}
                     />
-                    <div>1111111111</div>
+                    <WTYNav />
                 </Col>
             </Row>
         </div>
